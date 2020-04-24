@@ -1,7 +1,7 @@
 Feature: Login
 
 
-	
+@smoke	
 Scenario: login with valid userid and invalid password
 	When user naviagtes to 'http://www.automationpractice.com'
 	And click on top signin button

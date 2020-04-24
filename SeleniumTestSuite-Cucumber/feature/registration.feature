@@ -1,11 +1,11 @@
 
 Feature: registraion
 
-
+@smoke
 Scenario: register with all required fields
 	Given user naviagtes to 'http://www.automationpractice.com'
 	Then click on top signin button
-	Then enter email address 'abc987958@mailinator.com' to create an account
+	Then enter email address 'abc987958787@mailinator.com' to create an account
 	And click on create an account button
 	And user enter firstname 'john'
 	And user enter lastname 'smith'
