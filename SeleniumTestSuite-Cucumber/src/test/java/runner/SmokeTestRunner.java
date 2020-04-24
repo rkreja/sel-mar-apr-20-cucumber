@@ -11,7 +11,9 @@ import io.cucumber.junit.CucumberOptions;
 		
 		features = {"feature"},
 		glue = {"stepDefinations"},
-		tags = {"@smoke"}
+		tags = {"@smoke"},
+		plugin = {"pretty","html:target/cucumber-report"}
+//		plugin = {"pretty","json:target/cucumber-report.json"}
 		
 		)
 public class SmokeTestRunner {
